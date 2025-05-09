@@ -3,28 +3,40 @@
   "WorkspaceRootPath": "D:\\Git\\HealthIndicator\\HealthIndicator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{709B325E-6C5A-9F24-E45B-367E21ACD04D}|Assembly-CSharp.csproj|d:\\git\\healthindicator\\healthindicator\\assets\\healthindicator\\scripts\\smoothhealthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{709B325E-6C5A-9F24-E45B-367E21ACD04D}|Assembly-CSharp.csproj|solutionrelative:assets\\healthindicator\\scripts\\smoothhealthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{709B325E-6C5A-9F24-E45B-367E21ACD04D}|Assembly-CSharp.csproj|D:\\Git\\HealthIndicator\\HealthIndicator\\assets\\healthindicator\\scripts\\buttons\\healbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{709B325E-6C5A-9F24-E45B-367E21ACD04D}|Assembly-CSharp.csproj|solutionrelative:assets\\healthindicator\\scripts\\buttons\\healbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{709B325E-6C5A-9F24-E45B-367E21ACD04D}|Assembly-CSharp.csproj|d:\\git\\healthindicator\\healthindicator\\assets\\healthindicator\\scripts\\instancehealthslider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{709B325E-6C5A-9F24-E45B-367E21ACD04D}|Assembly-CSharp.csproj|solutionrelative:assets\\healthindicator\\scripts\\instancehealthslider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{709B325E-6C5A-9F24-E45B-367E21ACD04D}|Assembly-CSharp.csproj|D:\\Git\\HealthIndicator\\HealthIndicator\\assets\\healthindicator\\scripts\\buttons\\damagebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{709B325E-6C5A-9F24-E45B-367E21ACD04D}|Assembly-CSharp.csproj|solutionrelative:assets\\healthindicator\\scripts\\buttons\\damagebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{709B325E-6C5A-9F24-E45B-367E21ACD04D}|Assembly-CSharp.csproj|D:\\Git\\HealthIndicator\\HealthIndicator\\assets\\healthindicator\\scripts\\healthtext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{709B325E-6C5A-9F24-E45B-367E21ACD04D}|Assembly-CSharp.csproj|solutionrelative:assets\\healthindicator\\scripts\\healthtext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{709B325E-6C5A-9F24-E45B-367E21ACD04D}|Assembly-CSharp.csproj|D:\\Git\\HealthIndicator\\HealthIndicator\\assets\\healthindicator\\scripts\\buttons\\healthbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{709B325E-6C5A-9F24-E45B-367E21ACD04D}|Assembly-CSharp.csproj|solutionrelative:assets\\healthindicator\\scripts\\buttons\\healthbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{709B325E-6C5A-9F24-E45B-367E21ACD04D}|Assembly-CSharp.csproj|D:\\Git\\HealthIndicator\\HealthIndicator\\assets\\healthindicator\\scripts\\healbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{709B325E-6C5A-9F24-E45B-367E21ACD04D}|Assembly-CSharp.csproj|solutionrelative:assets\\healthindicator\\scripts\\healbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{709B325E-6C5A-9F24-E45B-367E21ACD04D}|Assembly-CSharp.csproj|D:\\Git\\HealthIndicator\\HealthIndicator\\assets\\healthindicator\\scripts\\healthbars\\smoothhealthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{709B325E-6C5A-9F24-E45B-367E21ACD04D}|Assembly-CSharp.csproj|solutionrelative:assets\\healthindicator\\scripts\\healthbars\\smoothhealthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{709B325E-6C5A-9F24-E45B-367E21ACD04D}|Assembly-CSharp.csproj|D:\\Git\\HealthIndicator\\HealthIndicator\\assets\\healthindicator\\scripts\\damagebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{709B325E-6C5A-9F24-E45B-367E21ACD04D}|Assembly-CSharp.csproj|solutionrelative:assets\\healthindicator\\scripts\\damagebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{709B325E-6C5A-9F24-E45B-367E21ACD04D}|Assembly-CSharp.csproj|D:\\Git\\HealthIndicator\\HealthIndicator\\assets\\healthindicator\\scripts\\healthbars\\instancehealthslider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{709B325E-6C5A-9F24-E45B-367E21ACD04D}|Assembly-CSharp.csproj|solutionrelative:assets\\healthindicator\\scripts\\healthbars\\instancehealthslider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{709B325E-6C5A-9F24-E45B-367E21ACD04D}|Assembly-CSharp.csproj|D:\\Git\\HealthIndicator\\HealthIndicator\\assets\\healthindicator\\scripts\\healthindicator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{709B325E-6C5A-9F24-E45B-367E21ACD04D}|Assembly-CSharp.csproj|solutionrelative:assets\\healthindicator\\scripts\\healthindicator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{709B325E-6C5A-9F24-E45B-367E21ACD04D}|Assembly-CSharp.csproj|D:\\Git\\HealthIndicator\\HealthIndicator\\assets\\healthindicator\\scripts\\healthbars\\healthtext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{709B325E-6C5A-9F24-E45B-367E21ACD04D}|Assembly-CSharp.csproj|solutionrelative:assets\\healthindicator\\scripts\\healthbars\\healthtext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{709B325E-6C5A-9F24-E45B-367E21ACD04D}|Assembly-CSharp.csproj|d:\\git\\healthindicator\\healthindicator\\assets\\healthindicator\\scripts\\health\\healthcoordinator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{709B325E-6C5A-9F24-E45B-367E21ACD04D}|Assembly-CSharp.csproj|solutionrelative:assets\\healthindicator\\scripts\\health\\healthcoordinator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{709B325E-6C5A-9F24-E45B-367E21ACD04D}|Assembly-CSharp.csproj|d:\\git\\healthindicator\\healthindicator\\assets\\healthindicator\\scripts\\health\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{709B325E-6C5A-9F24-E45B-367E21ACD04D}|Assembly-CSharp.csproj|solutionrelative:assets\\healthindicator\\scripts\\health\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{709B325E-6C5A-9F24-E45B-367E21ACD04D}|Assembly-CSharp.csproj|d:\\git\\healthindicator\\healthindicator\\assets\\healthindicator\\scripts\\health\\healthrenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{709B325E-6C5A-9F24-E45B-367E21ACD04D}|Assembly-CSharp.csproj|solutionrelative:assets\\healthindicator\\scripts\\health\\healthrenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +46,123 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DamageButton.cs",
-              "DocumentMoniker": "D:\\Git\\HealthIndicator\\HealthIndicator\\Assets\\HealthIndicator\\Scripts\\DamageButton.cs",
-              "RelativeDocumentMoniker": "Assets\\HealthIndicator\\Scripts\\DamageButton.cs",
-              "ToolTip": "D:\\Git\\HealthIndicator\\HealthIndicator\\Assets\\HealthIndicator\\Scripts\\DamageButton.cs",
-              "RelativeToolTip": "Assets\\HealthIndicator\\Scripts\\DamageButton.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAVAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "HealthRenderer.cs",
+              "DocumentMoniker": "D:\\Git\\HealthIndicator\\HealthIndicator\\Assets\\HealthIndicator\\Scripts\\Health\\HealthRenderer.cs",
+              "RelativeDocumentMoniker": "Assets\\HealthIndicator\\Scripts\\Health\\HealthRenderer.cs",
+              "ToolTip": "D:\\Git\\HealthIndicator\\HealthIndicator\\Assets\\HealthIndicator\\Scripts\\Health\\HealthRenderer.cs",
+              "RelativeToolTip": "Assets\\HealthIndicator\\Scripts\\Health\\HealthRenderer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T11:12:40.792Z",
+              "WhenOpened": "2025-05-09T07:06:43.937Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HealButton.cs",
-              "DocumentMoniker": "D:\\Git\\HealthIndicator\\HealthIndicator\\Assets\\HealthIndicator\\Scripts\\HealButton.cs",
-              "RelativeDocumentMoniker": "Assets\\HealthIndicator\\Scripts\\HealButton.cs",
-              "ToolTip": "D:\\Git\\HealthIndicator\\HealthIndicator\\Assets\\HealthIndicator\\Scripts\\HealButton.cs",
-              "RelativeToolTip": "Assets\\HealthIndicator\\Scripts\\HealButton.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "Health.cs",
+              "DocumentMoniker": "D:\\Git\\HealthIndicator\\HealthIndicator\\Assets\\HealthIndicator\\Scripts\\Health\\Health.cs",
+              "RelativeDocumentMoniker": "Assets\\HealthIndicator\\Scripts\\Health\\Health.cs",
+              "ToolTip": "D:\\Git\\HealthIndicator\\HealthIndicator\\Assets\\HealthIndicator\\Scripts\\Health\\Health.cs",
+              "RelativeToolTip": "Assets\\HealthIndicator\\Scripts\\Health\\Health.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T13:54:32.44Z",
+              "WhenOpened": "2025-05-09T07:06:40.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HealthCoordinator.cs",
+              "DocumentMoniker": "D:\\Git\\HealthIndicator\\HealthIndicator\\Assets\\HealthIndicator\\Scripts\\Health\\HealthCoordinator.cs",
+              "RelativeDocumentMoniker": "Assets\\HealthIndicator\\Scripts\\Health\\HealthCoordinator.cs",
+              "ToolTip": "D:\\Git\\HealthIndicator\\HealthIndicator\\Assets\\HealthIndicator\\Scripts\\Health\\HealthCoordinator.cs",
+              "RelativeToolTip": "Assets\\HealthIndicator\\Scripts\\Health\\HealthCoordinator.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwB4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T07:06:42.467Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "HealthIndicator.cs",
-              "DocumentMoniker": "D:\\Git\\HealthIndicator\\HealthIndicator\\Assets\\HealthIndicator\\Scripts\\HealthIndicator.cs",
-              "RelativeDocumentMoniker": "Assets\\HealthIndicator\\Scripts\\HealthIndicator.cs",
-              "ToolTip": "D:\\Git\\HealthIndicator\\HealthIndicator\\Assets\\HealthIndicator\\Scripts\\HealthIndicator.cs",
-              "RelativeToolTip": "Assets\\HealthIndicator\\Scripts\\HealthIndicator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Title": "HealthText.cs",
+              "DocumentMoniker": "D:\\Git\\HealthIndicator\\HealthIndicator\\Assets\\HealthIndicator\\Scripts\\HealthBars\\HealthText.cs",
+              "RelativeDocumentMoniker": "Assets\\HealthIndicator\\Scripts\\HealthBars\\HealthText.cs",
+              "ToolTip": "D:\\Git\\HealthIndicator\\HealthIndicator\\Assets\\HealthIndicator\\Scripts\\HealthBars\\HealthText.cs",
+              "RelativeToolTip": "Assets\\HealthIndicator\\Scripts\\HealthBars\\HealthText.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T13:55:36.504Z",
+              "WhenOpened": "2025-05-09T06:22:50.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InstanceHealthSlider.cs",
+              "DocumentMoniker": "D:\\Git\\HealthIndicator\\HealthIndicator\\Assets\\HealthIndicator\\Scripts\\HealthBars\\InstanceHealthSlider.cs",
+              "RelativeDocumentMoniker": "Assets\\HealthIndicator\\Scripts\\HealthBars\\InstanceHealthSlider.cs",
+              "ToolTip": "D:\\Git\\HealthIndicator\\HealthIndicator\\Assets\\HealthIndicator\\Scripts\\HealthBars\\InstanceHealthSlider.cs",
+              "RelativeToolTip": "Assets\\HealthIndicator\\Scripts\\HealthBars\\InstanceHealthSlider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T06:22:52.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SmoothHealthBar.cs",
+              "DocumentMoniker": "D:\\Git\\HealthIndicator\\HealthIndicator\\Assets\\HealthIndicator\\Scripts\\HealthBars\\SmoothHealthBar.cs",
+              "RelativeDocumentMoniker": "Assets\\HealthIndicator\\Scripts\\HealthBars\\SmoothHealthBar.cs",
+              "ToolTip": "D:\\Git\\HealthIndicator\\HealthIndicator\\Assets\\HealthIndicator\\Scripts\\HealthBars\\SmoothHealthBar.cs",
+              "RelativeToolTip": "Assets\\HealthIndicator\\Scripts\\HealthBars\\SmoothHealthBar.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwAcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T06:22:55.032Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "HealthText.cs",
-              "DocumentMoniker": "D:\\Git\\HealthIndicator\\HealthIndicator\\Assets\\HealthIndicator\\Scripts\\HealthText.cs",
-              "RelativeDocumentMoniker": "Assets\\HealthIndicator\\Scripts\\HealthText.cs",
-              "ToolTip": "D:\\Git\\HealthIndicator\\HealthIndicator\\Assets\\HealthIndicator\\Scripts\\HealthText.cs",
-              "RelativeToolTip": "Assets\\HealthIndicator\\Scripts\\HealthText.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Title": "HealthButton.cs",
+              "DocumentMoniker": "D:\\Git\\HealthIndicator\\HealthIndicator\\Assets\\HealthIndicator\\Scripts\\Buttons\\HealthButton.cs",
+              "RelativeDocumentMoniker": "Assets\\HealthIndicator\\Scripts\\Buttons\\HealthButton.cs",
+              "ToolTip": "D:\\Git\\HealthIndicator\\HealthIndicator\\Assets\\HealthIndicator\\Scripts\\Buttons\\HealthButton.cs",
+              "RelativeToolTip": "Assets\\HealthIndicator\\Scripts\\Buttons\\HealthButton.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T11:15:36.305Z",
+              "WhenOpened": "2025-05-09T06:10:27.644Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "InstanceHealthSlider.cs",
-              "DocumentMoniker": "D:\\Git\\HealthIndicator\\HealthIndicator\\Assets\\HealthIndicator\\Scripts\\InstanceHealthSlider.cs",
-              "RelativeDocumentMoniker": "Assets\\HealthIndicator\\Scripts\\InstanceHealthSlider.cs",
-              "ToolTip": "D:\\Git\\HealthIndicator\\HealthIndicator\\Assets\\HealthIndicator\\Scripts\\InstanceHealthSlider.cs",
-              "RelativeToolTip": "Assets\\HealthIndicator\\Scripts\\InstanceHealthSlider.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Title": "DamageButton.cs",
+              "DocumentMoniker": "D:\\Git\\HealthIndicator\\HealthIndicator\\Assets\\HealthIndicator\\Scripts\\Buttons\\DamageButton.cs",
+              "RelativeDocumentMoniker": "Assets\\HealthIndicator\\Scripts\\Buttons\\DamageButton.cs",
+              "ToolTip": "D:\\Git\\HealthIndicator\\HealthIndicator\\Assets\\HealthIndicator\\Scripts\\Buttons\\DamageButton.cs",
+              "RelativeToolTip": "Assets\\HealthIndicator\\Scripts\\Buttons\\DamageButton.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T14:12:55.694Z",
+              "WhenOpened": "2025-05-09T06:10:47.306Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SmoothHealthBar.cs",
-              "DocumentMoniker": "D:\\Git\\HealthIndicator\\HealthIndicator\\Assets\\HealthIndicator\\Scripts\\SmoothHealthBar.cs",
-              "RelativeDocumentMoniker": "Assets\\HealthIndicator\\Scripts\\SmoothHealthBar.cs",
-              "ToolTip": "D:\\Git\\HealthIndicator\\HealthIndicator\\Assets\\HealthIndicator\\Scripts\\SmoothHealthBar.cs",
-              "RelativeToolTip": "Assets\\HealthIndicator\\Scripts\\SmoothHealthBar.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAaAAAAAAAAAA==",
+              "Title": "HealButton.cs",
+              "DocumentMoniker": "D:\\Git\\HealthIndicator\\HealthIndicator\\Assets\\HealthIndicator\\Scripts\\Buttons\\HealButton.cs",
+              "RelativeDocumentMoniker": "Assets\\HealthIndicator\\Scripts\\Buttons\\HealButton.cs",
+              "ToolTip": "D:\\Git\\HealthIndicator\\HealthIndicator\\Assets\\HealthIndicator\\Scripts\\Buttons\\HealButton.cs",
+              "RelativeToolTip": "Assets\\HealthIndicator\\Scripts\\Buttons\\HealButton.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T14:35:02.059Z",
+              "WhenOpened": "2025-05-09T06:10:43.868Z",
               "EditorCaption": ""
             }
           ]
