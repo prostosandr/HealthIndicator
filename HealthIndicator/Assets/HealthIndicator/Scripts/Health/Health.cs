@@ -1,37 +1,46 @@
+using System;
 using UnityEngine;
 
 public class Health : MonoBehaviour
 {
-    [SerializeField] private int _minHealth;
-    [SerializeField] private int _maxHealth;
+    [SerializeField] private int _minValue;
+    [SerializeField] private int _maxValue;
 
-    private int _healthValue;
+    private int _value;
 
-    public int HealthValue => _healthValue;
-    public int MaxHealth => _maxHealth;
+    public int Value => _value;
+    public int MaxValue => _maxValue;
 
-    private void EqualizeHealth()
-    {
-        _healthValue = Mathf.Clamp(_healthValue, _minHealth, _maxHealth);
-    }
+    public event Action<int, int> ValueChanged;
 
     public void TakeDamage(int damage)
     {
-        if (damage < 0)
-            damage = -damage;
+        FixAmountHealthChange(damage);
 
-        _healthValue -= damage;
+        _value -= damage;
 
-        EqualizeHealth();
+        EqualizeValue();
     }
 
-    public void Heal(int valueHeal)
+    public void TakeHeal(int valueHeal)
     {
-        if (valueHeal < 0)
-            valueHeal = -valueHeal;
+        FixAmountHealthChange(valueHeal);
 
-        _healthValue += valueHeal;
+        _value += valueHeal;
 
-        EqualizeHealth();
+        EqualizeValue();   
+    }
+
+    private void FixAmountHealthChange(int amount)
+    {
+        if (amount < 0)
+            amount = -amount;
+    }
+
+    private void EqualizeValue()
+    {
+        _value = Mathf.Clamp(_value, _minValue, _maxValue);
+
+        ValueChanged?.Invoke(_value, _maxValue);
     }
 }

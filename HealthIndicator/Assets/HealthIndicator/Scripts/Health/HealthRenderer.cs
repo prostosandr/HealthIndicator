@@ -2,14 +2,31 @@ using UnityEngine;
 
 public class HealthRenderer : MonoBehaviour
 {
-    [SerializeField] private HealthText _healthText;
-    [SerializeField] private InstanceHealthSlider _instanceHealthSlider;
-    [SerializeField] private SmoothHealthBar _smoothHealthBar;
+    [SerializeField] private Health _health;
+    [SerializeField] private HealthBarArray _healthBarArray;
 
-    public void UpdateUI(int healthValue, int maxHealth)
+    private HealthBar[] _healthBars;
+
+    private void Awake()
     {
-        _healthText.UpdateText(healthValue, maxHealth);
-        _instanceHealthSlider.UpdateSliderValue(healthValue, maxHealth);
-        _smoothHealthBar.UpdateSliderValue(healthValue, maxHealth);
+        _healthBars = _healthBarArray.Bars;
+    }
+
+    private void OnEnable()
+    {
+        _health.ValueChanged += UpdateUI;
+    }
+
+    private void OnDisable()
+    {
+        _health.ValueChanged -= UpdateUI;
+    }
+
+    private void UpdateUI(int healthValue, int maxHealth)
+    {
+        foreach (HealthBar healthBar in _healthBars)
+        {
+            healthBar.UpdateDrawing(healthValue, maxHealth);
+        }
     }
 }

@@ -1,7 +1,9 @@
 public class HealButton :HealthButton
 {
-    public override void ChangeButtonText()
+    protected override void ChangeButtonText()
     {
         _buttonText.text = $"+{_amountHealthChange} здоровья";
+
+        _isDamage = false;
     }
 }

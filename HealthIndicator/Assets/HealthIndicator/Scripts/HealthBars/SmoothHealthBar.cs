@@ -7,6 +7,14 @@ public class SmoothHealthBar : InstanceHealthSlider
 
     private Coroutine _coroutine;
 
+    public override void UpdateDrawing(int health, int maxHealth)
+    {
+        if (_coroutine != null)
+            StopCoroutine(_coroutine);
+
+        _coroutine = StartCoroutine(ChangeValueSmooth(health, maxHealth));
+    }
+
     private IEnumerator ChangeValueSmooth(int health, int maxHealth)
     {
         float currentSliderValue = _slider.value;
@@ -25,13 +33,5 @@ public class SmoothHealthBar : InstanceHealthSlider
         }
 
         _coroutine = null;
-    }
-
-    public override void UpdateSliderValue(int health, int maxHealth)
-    {
-        if(_coroutine  != null)
-            StopCoroutine( _coroutine);
-
-        _coroutine = StartCoroutine(ChangeValueSmooth(health, maxHealth));
     }
 }

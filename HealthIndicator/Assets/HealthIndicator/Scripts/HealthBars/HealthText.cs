@@ -2,7 +2,7 @@ using TMPro;
 using UnityEngine;
 
 [RequireComponent(typeof(TextMeshProUGUI))]
-public class HealthText : MonoBehaviour
+public class HealthText : HealthBar
 {
     private TextMeshProUGUI _textHealth;
 
@@ -11,7 +11,7 @@ public class HealthText : MonoBehaviour
         _textHealth = GetComponent<TextMeshProUGUI>();
     }
 
-    public void UpdateText(int currentHealth, int maxHealth)
+    public override void UpdateDrawing(int currentHealth, int maxHealth)
     {
         _textHealth.text = $"{currentHealth} / {maxHealth}";
     }

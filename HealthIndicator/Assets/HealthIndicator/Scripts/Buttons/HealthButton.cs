@@ -9,9 +9,10 @@ public class HealthButton : MonoBehaviour
     [SerializeField] protected int _amountHealthChange;
     [SerializeField] protected TextMeshProUGUI _buttonText;
 
+    protected bool _isDamage;
     private Button _button;
 
-    public event Action<int> ButtonClicked;
+    public event Action<int, bool> ButtonClicked;
 
     private void Awake()
     {
@@ -30,13 +31,13 @@ public class HealthButton : MonoBehaviour
         _button.onClick.RemoveListener(ChangeHealth);
     }
 
-    private void ChangeHealth()
-    {
-        ButtonClicked?.Invoke(_amountHealthChange);
-    }
-
-    public virtual void ChangeButtonText()
+    protected virtual void ChangeButtonText()
     {
         _buttonText.text = $"{_amountHealthChange} здоровья";
     }
+
+    private void ChangeHealth()
+    {
+        ButtonClicked?.Invoke(_amountHealthChange, _isDamage);
+    } 
 }

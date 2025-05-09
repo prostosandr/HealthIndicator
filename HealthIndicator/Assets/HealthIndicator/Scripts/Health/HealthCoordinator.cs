@@ -3,34 +3,36 @@ using UnityEngine;
 public class HealthCoordinator : MonoBehaviour
 {
     [SerializeField] private Health _health;
-    [SerializeField] private HealthRenderer _healthRenderer;
+    [SerializeField] private ButtonsArray _buttonsArray;
 
-    [SerializeField] private DamageButton _damageButton;
-    [SerializeField] private HealButton _healButton;
+    private HealthButton[] _healthButtons;
+
+    private void Awake()
+    {
+        _healthButtons = _buttonsArray.HealthButtons;
+    }
 
     private void OnEnable()
     {
-        _damageButton.ButtonClicked += DealDamage;
-        _healButton.ButtonClicked += Heal;
+        foreach (HealthButton healthButton in _healthButtons)
+        {
+            healthButton.ButtonClicked += ChangeHealth;
+        }
     }
 
     private void OnDisable()
     {
-        _damageButton.ButtonClicked -= DealDamage;
-        _healButton.ButtonClicked -= Heal;
+        foreach (HealthButton healthButton in _healthButtons)
+        {
+            healthButton.ButtonClicked -= ChangeHealth;
+        }
     }
 
-    private void DealDamage(int damage)
+    private void ChangeHealth(int value, bool isDamage)
     {
-        _health.TakeDamage(damage);
-
-        _healthRenderer.UpdateUI(_health.HealthValue, _health.MaxHealth);
-    }
-
-    private void Heal(int valueHeal)
-    {
-        _health.Heal(valueHeal);
-
-        _healthRenderer.UpdateUI(_health.HealthValue, _health.MaxHealth);
+        if (isDamage)
+            _health.TakeDamage(value);
+        else
+            _health.TakeHeal(value);
     }
 }

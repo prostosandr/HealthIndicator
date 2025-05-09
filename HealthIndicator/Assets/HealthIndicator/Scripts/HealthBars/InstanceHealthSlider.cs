@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 [RequireComponent(typeof(Slider))]
-public class InstanceHealthSlider : MonoBehaviour
+public class InstanceHealthSlider : HealthBar
 {
     protected Slider _slider;
 
@@ -11,8 +11,8 @@ public class InstanceHealthSlider : MonoBehaviour
         _slider = GetComponent<Slider>();
     }
 
-    public virtual void UpdateSliderValue(int health, int maxHealth)
+    public override void UpdateDrawing(int currentHealth, int maxHealth)
     {
-        _slider.value = (float)health / (float)maxHealth;
+        _slider.value = (float)currentHealth / (float)maxHealth;
     }
 }
