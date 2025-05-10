@@ -29,7 +29,7 @@ public class SmoothHealthBar : HealthBar
 
         float elapsed = 0f;
 
-        while (_slider.value != currentValue)
+        while (Mathf.Approximately(_slider.value, currentValue) == false)
         {
             elapsed += Time.deltaTime;
 

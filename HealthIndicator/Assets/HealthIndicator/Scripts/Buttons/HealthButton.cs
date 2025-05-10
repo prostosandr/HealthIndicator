@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public abstract class HealthButton : MonoBehaviour
 {
     [SerializeField] protected TextMeshProUGUI ButtonText;
-    [SerializeField] protected Health Health;
+    [SerializeField] protected Health _health;
 
     private Button _button;
 

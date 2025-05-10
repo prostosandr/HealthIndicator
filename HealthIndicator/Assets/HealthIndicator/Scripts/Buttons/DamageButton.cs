@@ -11,6 +11,6 @@ public class DamageButton : HealthButton
 
     protected override void ChangeHealth()
     {
-        Health.TakeDamage(_damage);
+        _health.TakeDamage(_damage);
     }
 }
