@@ -11,8 +11,8 @@ public class InstanceHealthSlider : HealthBar
         _slider = GetComponent<Slider>();
     }
 
-    public override void UpdateDrawing(int currentHealth, int maxHealth)
+    public override void UpdateDrawing()
     {
-        _slider.value = (float)currentHealth / (float)maxHealth;
+        _slider.value = (float)_health.Value / (float)_health.MaxValue;
     }
 }

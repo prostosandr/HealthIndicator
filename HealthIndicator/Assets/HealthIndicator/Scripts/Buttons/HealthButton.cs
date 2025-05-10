@@ -1,18 +1,16 @@
-using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 [RequireComponent(typeof(Button))]
-public class HealthButton : MonoBehaviour
+public abstract class HealthButton : MonoBehaviour
 {
-    [SerializeField] protected int _amountHealthChange;
     [SerializeField] protected TextMeshProUGUI _buttonText;
+    [SerializeField] protected Health _health;
 
     protected bool _isDamage;
-    private Button _button;
 
-    public event Action<int, bool> ButtonClicked;
+    private Button _button;
 
     private void Awake()
     {
@@ -31,13 +29,12 @@ public class HealthButton : MonoBehaviour
         _button.onClick.RemoveListener(ChangeHealth);
     }
 
-    protected virtual void ChangeButtonText()
+    public void SetHealth(Health health)
     {
-        _buttonText.text = $"{_amountHealthChange} здоровья";
+        _health = health;
     }
 
-    private void ChangeHealth()
-    {
-        ButtonClicked?.Invoke(_amountHealthChange, _isDamage);
-    } 
+    protected abstract void ChangeButtonText();
+
+    protected abstract void ChangeHealth();
 }

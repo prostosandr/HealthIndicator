@@ -7,27 +7,27 @@ public class SmoothHealthBar : InstanceHealthSlider
 
     private Coroutine _coroutine;
 
-    public override void UpdateDrawing(int health, int maxHealth)
+    public override void UpdateDrawing()
     {
         if (_coroutine != null)
             StopCoroutine(_coroutine);
 
-        _coroutine = StartCoroutine(ChangeValueSmooth(health, maxHealth));
+        _coroutine = StartCoroutine(ChangeValueSmooth());
     }
 
-    private IEnumerator ChangeValueSmooth(int health, int maxHealth)
+    private IEnumerator ChangeValueSmooth()
     {
         float currentSliderValue = _slider.value;
 
         float elapsed = 0f;
 
-        while (_slider.value != health)
+        while (_slider.value != _health.Value)
         {
             elapsed += Time.deltaTime;
 
             float thridParameter = Mathf.Clamp01(elapsed / _smoothDuration);
 
-            _slider.value = Mathf.Lerp(currentSliderValue, (float)health / (float)maxHealth, thridParameter);
+            _slider.value = Mathf.Lerp(currentSliderValue, (float)_health.Value / (float)_health.MaxValue, thridParameter);
 
             yield return null;
         }

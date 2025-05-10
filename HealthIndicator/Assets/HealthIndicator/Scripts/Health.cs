@@ -11,36 +11,32 @@ public class Health : MonoBehaviour
     public int Value => _value;
     public int MaxValue => _maxValue;
 
-    public event Action<int, int> ValueChanged;
+    public event Action ValueChanged;
 
     public void TakeDamage(int damage)
     {
-        FixAmountHealthChange(damage);
+        if (damage >= 0)
+        {
+            _value -= damage;
 
-        _value -= damage;
-
-        EqualizeValue();
+            EqualizeValue();
+        }
     }
 
     public void TakeHeal(int valueHeal)
     {
-        FixAmountHealthChange(valueHeal);
+        if (valueHeal >= 0)
+        {
+            _value += valueHeal;
 
-        _value += valueHeal;
-
-        EqualizeValue();   
-    }
-
-    private void FixAmountHealthChange(int amount)
-    {
-        if (amount < 0)
-            amount = -amount;
+            EqualizeValue();
+        }
     }
 
     private void EqualizeValue()
     {
         _value = Mathf.Clamp(_value, _minValue, _maxValue);
 
-        ValueChanged?.Invoke(_value, _maxValue);
+        ValueChanged?.Invoke();
     }
 }
