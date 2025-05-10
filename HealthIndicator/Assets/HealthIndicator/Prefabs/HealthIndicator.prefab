@@ -692,7 +692,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff357cd0f44c77643a87ae2bd0f20bf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _health: {fileID: 7295711915788029529}
+  Health: {fileID: 7295711915788029529}
 --- !u!1 &3602643367545450624
 GameObject:
   m_ObjectHideFlags: 0
@@ -981,8 +981,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5f4456cc426b2e409c5b5d254e7d3d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _buttonText: {fileID: 862750329784473306}
-  _health: {fileID: 7295711915788029529}
+  ButtonText: {fileID: 862750329784473306}
+  Health: {fileID: 7295711915788029529}
   _damage: 20
 --- !u!1 &3889785262886533535
 GameObject:
@@ -1086,7 +1086,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11f8643cdb302b54f965a59b8ead0813, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _health: {fileID: 7295711915788029529}
+  Health: {fileID: 7295711915788029529}
   _smoothDuration: 0.5
 --- !u!1 &4391231276299278902
 GameObject:
@@ -1435,8 +1435,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f49e7e960707fb459ab481eed9fa612, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _buttonText: {fileID: 8332801608315660166}
-  _health: {fileID: 7295711915788029529}
+  ButtonText: {fileID: 8332801608315660166}
+  Health: {fileID: 7295711915788029529}
   _valueHeal: 20
 --- !u!1 &7221982321945037408
 GameObject:
@@ -1621,4 +1621,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fbba8f7d8cc2a44b967ae7b05402d4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _health: {fileID: 7295711915788029529}
+  Health: {fileID: 7295711915788029529}

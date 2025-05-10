@@ -11,8 +11,8 @@ public class HealthText : HealthBar
         _textHealth = GetComponent<TextMeshProUGUI>();
     }
 
-    public override void UpdateDrawing()
+    public override void UpdateDrawing(float currentValue)
     {
-        _textHealth.text = $"{_health.Value} / {_health.MaxValue}";
+        _textHealth.text = $"{currentValue} / {MaxValue}";
     }
 }

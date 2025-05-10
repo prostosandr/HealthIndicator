@@ -6,13 +6,11 @@ public class DamageButton : HealthButton
 
     protected override void ChangeButtonText()
     {
-        _buttonText.text = $"-{_damage} здоровья";
-
-        _isDamage = true;
+        ButtonText.text = $"-{_damage} здоровья";
     }
 
     protected override void ChangeHealth()
     {
-        _health.TakeDamage(_damage);
+        Health.TakeDamage(_damage);
     }
 }

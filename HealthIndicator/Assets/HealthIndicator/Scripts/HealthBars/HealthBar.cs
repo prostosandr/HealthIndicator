@@ -2,17 +2,24 @@ using UnityEngine;
 
 public abstract class HealthBar : MonoBehaviour
 {
-    [SerializeField] protected Health _health;
+    [SerializeField] private Health Health;
+
+    protected float MaxValue;
+
+    private void Start()
+    {
+        MaxValue = Health.MaxValue;
+    }
 
     private void OnEnable()
     {
-        _health.ValueChanged += UpdateDrawing;
+        Health.ValueChanged += UpdateDrawing;
     }
 
     private void OnDisable()
     {
-        _health.ValueChanged -= UpdateDrawing;
+        Health.ValueChanged -= UpdateDrawing;
     }
 
-    public abstract void UpdateDrawing();
+    public abstract void UpdateDrawing(float currentValue);
 }

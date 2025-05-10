@@ -3,15 +3,15 @@ using UnityEngine;
 
 public class Health : MonoBehaviour
 {
-    [SerializeField] private int _minValue;
-    [SerializeField] private int _maxValue;
+    [SerializeField] private float _minValue;
+    [SerializeField] private float _maxValue;
 
-    private int _value;
+    private float _value;
 
-    public int Value => _value;
-    public int MaxValue => _maxValue;
+    public float Value => _value;
+    public float MaxValue => _maxValue;
 
-    public event Action ValueChanged;
+    public event Action<float> ValueChanged;
 
     public void TakeDamage(int damage)
     {
@@ -37,6 +37,6 @@ public class Health : MonoBehaviour
     {
         _value = Mathf.Clamp(_value, _minValue, _maxValue);
 
-        ValueChanged?.Invoke();
+        ValueChanged?.Invoke(_value);
     }
 }

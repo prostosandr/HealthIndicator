@@ -1,33 +1,41 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class SmoothHealthBar : InstanceHealthSlider
+[RequireComponent(typeof(Slider))]
+public class SmoothHealthBar : HealthBar
 {
     [SerializeField] private float _smoothDuration;
 
+    private Slider _slider;
     private Coroutine _coroutine;
 
-    public override void UpdateDrawing()
+    private void Awake()
+    {
+        _slider = GetComponent<Slider>();
+    }
+
+    public override void UpdateDrawing(float currentValue)
     {
         if (_coroutine != null)
             StopCoroutine(_coroutine);
 
-        _coroutine = StartCoroutine(ChangeValueSmooth());
+        _coroutine = StartCoroutine(ChangeValueSmooth(currentValue));
     }
 
-    private IEnumerator ChangeValueSmooth()
+    private IEnumerator ChangeValueSmooth(float currentValue)
     {
         float currentSliderValue = _slider.value;
 
         float elapsed = 0f;
 
-        while (_slider.value != _health.Value)
+        while (_slider.value != currentValue)
         {
             elapsed += Time.deltaTime;
 
             float thridParameter = Mathf.Clamp01(elapsed / _smoothDuration);
 
-            _slider.value = Mathf.Lerp(currentSliderValue, (float)_health.Value / (float)_health.MaxValue, thridParameter);
+            _slider.value = Mathf.Lerp(currentSliderValue, currentValue / MaxValue, thridParameter);
 
             yield return null;
         }
